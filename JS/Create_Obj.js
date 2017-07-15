@@ -1,4 +1,3 @@
-<script>
 function User(forename, username, password)
 {
     this.forename = forename
@@ -12,4 +11,6 @@ function User(forename, username, password)
         document.write("Password: " + this.password + "<br>")
     }
 }
-</script>
+
+details = new User("Wolfgang", "w.a.mozart", "composer");
+details.showUser();
